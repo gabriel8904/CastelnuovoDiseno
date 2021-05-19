@@ -1,0 +1,151 @@
+* {
+  font-family: 'Montserrat', sans-serif; }
+
+.bg-nuestro {
+  background-color: whitesmoke; }
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+body {
+  overflow-x: hidden; }
+
+.rowSinMargin {
+  margin-right: 0px !important;
+  margin-left: 0px !important; }
+
+.bg--footer {
+  margin-top: 50px;
+  padding: 30px 10px 10px 10px;
+  text-align: center; }
+
+.logo--footer__ubicacion {
+  padding-left: 20px; }
+
+.bloque {
+  width: 10%; }
+
+.saltoDeLinea {
+  display: block; }
+
+.encabezado {
+  text-align: center;
+  padding: 50px; }
+
+.txt--servicios {
+  text-align: center; }
+
+.bg--copy {
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center; }
+
+@media only screen and (max-width: 768px) {
+  .modificacionMovile {
+    padding: 20px; }
+  span {
+    font-size: 18px; }
+  .txt--servicios {
+    font-size: 23px;
+    text-align: justify; }
+  .desaparecerMovil {
+    display: none; }
+  .bg--copy {
+    text-align: center; } }
+
+@media only screen and (min-width: 1024px) {
+  .modificacionMovile {
+    padding: 20px; }
+  span {
+    font-size: 22px; } }
+
+.titulos {
+  background-color: black;
+  text-align: center; }
+
+.titulos__iluminacion {
+  color: black; }
+
+.titulos__colgantesYApliques {
+  color: whitesmoke;
+  padding: 20px 20px 50px 10px; }
+
+.footer__information--ubicacionlogo {
+  width: 200px; }
+
+.colgante__nombre {
+  color: black; }
+
+.colgante__detalles {
+  color: black;
+  text-align: right; }
+
+.texto__lamparas {
+  text-align: left; }
+
+.dim__imagen-dafne {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.dim__imagen-dafnemini {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.dim__imagen-tiuv {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.dim__imagen-geoda {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.dim__imagen-cylin {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.dim__imagen-aztec {
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.dim__imagen-mixe {
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.dim__imagen-tonal {
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.dim__imagen-kaverno {
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.dim__imagen-brique {
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.dim__imagen-totem {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.dim__imagen-block {
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap; }
+
+.logo {
+  display: flex;
+  width: 100px;
+  text-align: left; }
