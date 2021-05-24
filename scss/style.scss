@@ -80,6 +80,7 @@ body {
 
 .titulos__iluminacion {
   color: black;
+  margin-top: 4rem;
 }
 
 .titulos__colgantesYApliques {
@@ -180,4 +181,21 @@ body {
   display: flex;
   width: 100px;
   text-align: left;
+}
+
+.navbar{
+  background-color: whitesmoke;
+  opacity: 0.75;
+
+}
+
+.nav-link{
+  color: rgb(0, 0, 0);  
+}
+.nav-link:hover{
+  color: rgb(202, 29, 29);  
+}
+.navbar-toggler{
+  color: whitesmoke;
+  background-color: red;
 }

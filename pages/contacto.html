@@ -31,7 +31,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-12 col-xs-12">
-				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<nav class="navbar fixed-top navbar-expand-md scrolling-navbar">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
 						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -56,19 +56,17 @@
 				</nav>
 			</div>
 		</div>
-
 		<br><br><br>
 		<section id="blog">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-sm-6">
 						<div class="blog-thumb">
-							<img src="../img/dafne06.jpeg" class="d-block w-100" alt="Blog"></a>
-
+							<img src="../img/dafne06.jpeg" class="d-block w-100" alt="dafne06" data-aos="zoom-in"></a>
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6">
+					<div class="col-md-6 col-sm-6" data-aos="zoom-in">
 						<div>
 							<h1 class="contacto__titulo"><strong>Contacto</strong> </h1>
 							<br>
@@ -82,6 +80,52 @@
 							<br>
 							<h4>ventas@castelnuovo.com.ar</h4>
 							</a>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 col-sm-12">
+								<div class="well well-sm">
+									<form action="https://formsubmit.co/castelnuovogabriel@gmail.com" method="POST">
+										<fieldset>
+											<br><br>					
+											<div class="form-group">
+												<span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+												<div class="col-md-8">
+													<input id="fname" name="name" type="text" placeholder="Nombre y apellido" class="form-control">
+												</div>
+											</div>
+					
+											<div class="form-group">
+												<span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+												<div class="col-md-8">
+													<input id="email" name="email" type="text" placeholder="e-mail" class="form-control">
+												</div>
+											</div>
+					
+											<div class="form-group">
+												<span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+												<div class="col-md-8">
+													<input id="phone" name="phone" type="text" placeholder="Telefono (opcional)" class="form-control">
+												</div>
+											</div>
+					
+											<div class="form-group">
+												<span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+												<div class="col-md-8">
+													<textarea class="form-control" id="message" name="message" placeholder="Mensaje..." rows="7"></textarea>
+												</div>
+											</div>
+					
+											<div class="form-group">
+												<div class="col-md-12 text-center">
+													<button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+												</div>
+											</div>
+										</fieldset>
+									</form>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -98,7 +142,6 @@
 			<div class="col-lg-4 col-xs-12">
 				<h3>ventas@castelnuovo.com.ar</h3>
 				<small class="d-block mb-3 text-muted">&copy; Castelnuovo diseño - 2021</small>
-
 			</div>
 			<div class="col-lg-4 col-xs-12">
 				<div class="contacto__info--iluminacion text-center">
@@ -125,6 +168,7 @@
 		crossorigin="anonymous"></script>
 	<!-- SCRIPT AOS -->
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	
 	<script>
 		AOS.init();
 	</script>
